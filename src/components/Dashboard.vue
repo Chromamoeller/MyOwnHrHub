@@ -1,9 +1,7 @@
 <template>
   <div>
     <div class="flex">
-      <div
-        class="h-screen w-3/8 bg-gradient-to-br from-purple-900 to-pink-900 p-5"
-      >
+      <div class="h-screen w-3/8 to-pink-900 p-5">
         <div class="flex h-full flex-col Test2 bg-gray-200 p-4">
           <LeftsideContainer>
             <Button
@@ -17,9 +15,7 @@
           </LeftsideContainer>
         </div>
       </div>
-      <div
-        class="w-5/8 h-screen bg-gradient-to-br from-blue-900 to-indigo-900 p-5"
-      >
+      <div class="w-5/8 h-screen p-5">
         <div class="h-full flex-col Test2 bg-gray-200 p-4">
           <RightsideContainer>
             <OverTime />
