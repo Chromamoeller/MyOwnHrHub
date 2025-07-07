@@ -6,34 +6,59 @@
     >
       <div class="flex-1 px-4 py-3 border-r border-gray-300 last:border-r-0">
         <input
+          v-model="beschreibung"
           type="text"
           class="w-1/3 border border-gray-300 p-2 rounded-lg"
-          placeholder="Grund..."
+          placeholder="Beschreibung..."
         />
         <input
           type="number"
-          name="Kind"
-          id="0"
+          v-model="betrag"
+          id="Betrag"
           class="w-1/3 border border-gray-300 p-2 rounded-lg"
           placeholder="Betrag..."
         />
         <select
+          v-model="kategorie"
           class="w-1/3 border border-gray-300 p-2 rounded-lg"
           name="Kategorie"
           id="Kategorie"
         >
-          <option value="0">Optionen Wählen...</option>
-          <option value="1">Einahmen</option>
-          <option value="2">Ausgaben</option>
+          <option disabled value="">Optionen Wählen...</option>
+          <option value="einnahmen">Einahmen</option>
+          <option value="ausgaben">Ausgaben</option>
         </select>
       </div>
     </div>
-    <button class="m-3 p-3 cursor-pointer w-40 h-11 rounded bg-cyan-300">
+    <button
+      @click="addMoneyEntry()"
+      class="m-3 p-3 cursor-pointer w-40 h-11 rounded bg-cyan-300"
+    >
       Speichern
     </button>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+import { useFinanceValuesStore } from "../stores/store";
+
+const beschreibung = ref("");
+const betrag = ref(0);
+const kategorie = ref("");
+
+function addMoneyEntry() {
+  if (beschreibung.value === "" || betrag.value === 0 || kategorie.value === "")
+    return;
+  useFinanceValuesStore().addEntry(
+    beschreibung.value,
+    betrag.value,
+    kategorie.value
+  );
+  beschreibung.value = "";
+  betrag.value = 0;
+  kategorie.value = "";
+}
+</script>
 
 <style lang="scss" scoped></style>

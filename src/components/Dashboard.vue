@@ -2,7 +2,7 @@
   <div>
     <div class="flex">
       <div class="h-screen w-3/8 to-pink-900 p-5">
-        <div class="flex h-full flex-col Test2 bg-gray-200 p-4">
+        <div class="flex h-full flex-col Test2 bg-gray-200 p-4 rounded-lg">
           <LeftsideContainer>
             <Button
               v-for="button in ButtonText"
@@ -16,7 +16,7 @@
         </div>
       </div>
       <div class="w-5/8 h-screen p-5">
-        <div class="h-full flex-col Test2 bg-gray-200 p-4">
+        <div class="h-full flex-col Test2 bg-gray-200 p-4 rounded-lg">
           <RightsideContainer>
             <OverTime />
           </RightsideContainer>

@@ -1,11 +1,17 @@
 <template>
   <div>
-    <p>Übrerstudnen</p>
+    <p>Perönliche Daten</p>
     <OverTimeBanner
       :userName="useOverTimeStore().name"
       :amount="useOverTimeStore().amount + ' std'"
       :color="useOverTimeStore().color"
       :Kind="useOverTimeStore().kind"
+    />
+    <OverTimeBanner
+      :userName="useOverTimeStore().name"
+      amount="12 Tage"
+      :color="useOverTimeStore().color"
+      Kind="Urlaub"
     />
   </div>
 </template>

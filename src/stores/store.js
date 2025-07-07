@@ -10,7 +10,7 @@ export const useOverTimeStore = defineStore("overTime", () => {
   return { amount, name, color, kind };
 });
 
-export const financeValuesStore = defineStore("financeValues", () => {
+export const useFinanceValuesStore = defineStore("financeValues", () => {
   const financeValues = reactive([
     {
       lastPurchases: 3,
@@ -28,5 +28,18 @@ export const financeValuesStore = defineStore("financeValues", () => {
       color: "Grün",
     },
   ]);
-  return { financeValues };
+  function addEntry(beschreibung, betrag, kategorie) {
+    var parsedBetrag = Number(betrag);
+    if (kategorie === "ausgaben" && parsedBetrag > 0) {
+      parsedBetrag = parsedBetrag * -1;
+    }
+
+    financeValues.push({
+      lastPurchases: parsedBetrag,
+      beschreibung: beschreibung,
+      color: parsedBetrag > 0 ? "Grün" : "Rot",
+    });
+  }
+
+  return { financeValues, addEntry };
 });
