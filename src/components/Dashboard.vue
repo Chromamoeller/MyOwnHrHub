@@ -26,6 +26,9 @@
           <RightsideContainer>
             <AddMoneyEntry />
           </RightsideContainer>
+          <RightsideContainer>
+            <CreatePokemon />
+          </RightsideContainer>
         </div>
       </div>
     </div>
@@ -41,6 +44,7 @@ import RightsideContainer from "./RightsideContainer.vue";
 import Finance from "./Finance.vue";
 import AddMoneyEntry from "./AddMoneyEntry.vue";
 import OverTime from "./OverTime.vue";
+import CreatePokemon from "./CreatePokemon.vue";
 
 const ButtonText = reactive([
   { id: 1, text: "Arbeits Beginn" },
