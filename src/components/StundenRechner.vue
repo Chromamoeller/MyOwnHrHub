@@ -46,7 +46,7 @@ const chartData = {
   datasets: [
     {
       label: "Gearbeitete Stunden in h",
-      data: [8, 8.5, 9],
+      data: [1, 3.5, 9],
       backgroundColor: ["#4dc9f6", "#f67019", "#f53794"],
     },
   ],

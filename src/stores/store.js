@@ -13,22 +13,28 @@ export const useOverTimeStore = defineStore("overTime", () => {
 export const useFinanceValuesStore = defineStore("financeValues", () => {
   const financeValues = reactive([
     {
-      lastPurchases: 3,
-      beschreibung: "Ausgaben",
+      lastPurchases: -25,
+      beschreibung: "Raummiete",
       color: "Rot",
+      type: "ausgaben",
+      date: "",
     },
     {
-      lastPurchases: 20,
-      beschreibung: "Ausgaben",
-      color: "Rot",
-    },
-    {
-      lastPurchases: 10,
-      beschreibung: "Einnahmen",
+      lastPurchases: 100,
+      beschreibung: "Tanzkurs",
       color: "Grün",
+      type: "einnahme",
+      date: "",
+    },
+    {
+      lastPurchases: -10,
+      beschreibung: "Eis",
+      color: "Rot",
+      type: "ausgaben",
+      date: "",
     },
   ]);
-  function addEntry(beschreibung, betrag, kategorie) {
+  function addEntry(beschreibung, betrag, kategorie, date) {
     var parsedBetrag = Number(betrag);
     if (kategorie === "ausgaben" && parsedBetrag > 0) {
       parsedBetrag = parsedBetrag * -1;
