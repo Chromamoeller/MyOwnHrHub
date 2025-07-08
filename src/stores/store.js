@@ -34,7 +34,7 @@ export const useFinanceValuesStore = defineStore("financeValues", () => {
       date: "",
     },
   ]);
-  function addEntry(beschreibung, betrag, kategorie, date) {
+  function addEntry(beschreibung, betrag, kategorie) {
     var parsedBetrag = Number(betrag);
     if (kategorie === "ausgaben" && parsedBetrag > 0) {
       parsedBetrag = parsedBetrag * -1;
@@ -48,4 +48,21 @@ export const useFinanceValuesStore = defineStore("financeValues", () => {
   }
 
   return { financeValues, addEntry };
+});
+
+export const useUserDataStore = defineStore("userData", () => {
+  console.log("useUserDataStore");
+  const userPokemons = reactive([
+    {
+      id: 2,
+      name: "Bisaknosp",
+      image:
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      types: ["grass", "poison"],
+    },
+  ]);
+  function saveUserPokemons(pokemon) {
+    userPokemons.push(pokemon);
+  }
+  return { userPokemons, saveUserPokemons };
 });

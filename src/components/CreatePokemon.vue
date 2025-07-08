@@ -25,6 +25,9 @@ import {
   typeColorsFrom,
   typeColorsTo,
 } from "../api/PokemonTypes.js";
+import { useUserDataStore } from "../stores/store";
+
+const userDataStore = useUserDataStore();
 
 const pokemonForDisplay = [];
 
@@ -48,7 +51,7 @@ function getTypeClass(types) {
   }
 }
 function doSomething() {
-  console.log("do something");
+  userDataStore.saveUserPokemons(pokemonForDisplay[0]);
 }
 </script>
 

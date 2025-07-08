@@ -5,7 +5,7 @@ import Header from "./components/Header.vue";
 
 <template>
   <div class="h-screen">
-    <!-- <Header /> -->
+    <Header />
     <Dashboard />
   </div>
 </template>
