@@ -3,13 +3,13 @@
     <p>Perönliche Daten</p>
     <OverTimeBanner
       :userName="useOverTimeStore().name"
-      :amount="useOverTimeStore().amount + ' std'"
+      :amount="useOverTimeStore().amount"
       :color="useOverTimeStore().color"
       :Kind="useOverTimeStore().kind"
     />
     <OverTimeBanner
       :userName="useOverTimeStore().name"
-      amount="12 Tage"
+      :amount="12"
       :color="useOverTimeStore().color"
       Kind="Urlaub"
     />

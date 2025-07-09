@@ -51,7 +51,6 @@ export const useFinanceValuesStore = defineStore("financeValues", () => {
 });
 
 export const useUserDataStore = defineStore("userData", () => {
-  console.log("useUserDataStore");
   const userPokemons = reactive({
     id: 2,
     name: "Bisaknosp",

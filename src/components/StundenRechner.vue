@@ -66,7 +66,6 @@ const chartOptions = {
 };
 
 // Beispiel verwenden:
-console.log(getLastThreeDates());
 </script>
 
 <template>
