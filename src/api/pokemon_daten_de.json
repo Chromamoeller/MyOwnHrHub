@@ -1,0 +1,908 @@
+[
+    {
+        "name": "Bisasam",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Bisaknosp",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Bisaflor",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Glumanda",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Glutexo",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Glurak",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Schiggy",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Schillok",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Turtok",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Raupy",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Safcon",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Smettbo",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Hornliu",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Kokuna",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Bibor",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Taubsi",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Tauboga",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Tauboss",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Rattfratz",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Rattikarl",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Habitak",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Ibitak",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Rettan",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Arbok",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Pikachu",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Raichu",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Sandan",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Sandamer",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Nidoran\u2640",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Nidorina",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Nidoqueen",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Nidoran\u2642",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Nidorino",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Nidoking",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Piepi",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Pixi",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Vulpix",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Vulnona",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Pummeluff",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Knuddeluff",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Zubat",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Golbat",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Myrapla",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Duflor",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Giflor",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Paras",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Parasek",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Bluzuk",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Omot",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Digda",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Digdri",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Mauzi",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Snobilikat",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Enton",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Entoron",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Menki",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Rasaff",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Fukano",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Arkani",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Quapsel",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Quaputzi",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Quappo",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Abra",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Kadabra",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Simsala",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Machollo",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Maschock",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Machomei",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Knofensa",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Ultrigaria",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Sarzenia",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Tentacha",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Tentoxa",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Kleinstein",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Georok",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Geowaz",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Ponita",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Gallopa",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Flegmon",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Lahmus",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Magnetilo",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Magneton",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Porenta",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Dodu",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Dodri",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Jurob",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Jugong",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Sleima",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Sleimok",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Muschas",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Austos",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Nebulak",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Alpollo",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Gengar",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Onix",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Traumato",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Hypno",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Krabby",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Kingler",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Voltobal",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Lektrobal",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Owei",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Kokowei",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Tragosso",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Knogga",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Kicklee",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Nockchan",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Schlurp",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Smogon",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Smogmog",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Rihorn",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Rizeros",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Chaneira",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Tangela",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Kangama",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Seeper",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Seemon",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Goldini",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Golking",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Sterndu",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Starmie",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Pantimos",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Sichlor",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Rossana",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Elektek",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Magmar",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Pinsir",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Tauros",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Karpador",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Garados",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Lapras",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Ditto",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Evoli",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Aquana",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Blitza",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Flamara",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Porygon",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Amonitas",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Amoroso",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Kabuto",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Kabutops",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Aerodactyl",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Relaxo",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Arktos",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Zapdos",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Lavados",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Dratini",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Dragonir",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Dragoran",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Mewtu",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    },
+    {
+        "name": "Mew",
+        "level": 1,
+        "current_xp": 0,
+        "xp_to_next_level": 100
+    }
+]

@@ -26,9 +26,9 @@
           <RightsideContainer>
             <AddMoneyEntry />
           </RightsideContainer>
-          <RightsideContainer>
+          <!-- <RightsideContainer>
             <CreatePokemon />
-          </RightsideContainer>
+          </RightsideContainer> -->
         </div>
       </div>
     </div>

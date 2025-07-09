@@ -5,13 +5,13 @@
       :userName="useOverTimeStore().name"
       :amount="useOverTimeStore().amount"
       :color="useOverTimeStore().color"
-      :Kind="useOverTimeStore().kind"
+      :kind="useOverTimeStore().kind"
     />
     <OverTimeBanner
       :userName="useOverTimeStore().name"
       :amount="12"
       :color="useOverTimeStore().color"
-      Kind="Urlaub"
+      kind="Urlaub"
     />
   </div>
 </template>

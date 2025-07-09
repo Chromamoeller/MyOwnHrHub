@@ -1,0 +1,9 @@
+1. Levelsystem für die pokemon  -  je länger man ein  pokemon in seiner arbeitszeit aktiv hat desto mehr erfahrung bekommt es und kann im level aufsteigen
+
+2. Die Button für arbeitszeit brauchen funktionalität
+
+3. die Balkendiagrame sollen tatsächliche daten wiederspiegeln.  zb die top 3 pokemon mit den höchsten level
+
+4. unter finanzen die Edit funktion hinzufügen. einen button der das felt editirbar amcht oder ein fenster aufgeht das dieses feld abändert
+
+5. 

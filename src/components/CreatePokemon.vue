@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-full h-full bg-gray-200">
+  <div class="flex w-full h-full bg-transparent">
     <div
       v-for="pokemon in pokemonForDisplay"
       @click="pushPokemonInStore(pokemon)"
