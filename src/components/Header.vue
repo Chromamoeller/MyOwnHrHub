@@ -4,7 +4,12 @@
   >
     <!-- Logo/Icon -->
     <div class="flex items-center">
-      <!-- <img src="/logo.svg" alt="Logo" class="h-10 w-10 object-contain" /> -->
+      <img
+        :src="pokemonForDisplay.image"
+        alt="Logo"
+        class="h-20 w-20 object-contain"
+      />
+
       <span class="ml-3 text-xl font-semibold text-gray-800">Meine Seite</span>
     </div>
 
@@ -13,7 +18,7 @@
       <a
         href="#"
         class="text-gray-700 hover:text-blue-600 font-medium transition"
-        >{{ pokemonForDisplay }}</a
+        >Link1</a
       >
       <a
         href="#"
@@ -93,7 +98,7 @@ import { useUserDataStore } from "../stores/store";
 
 const userDataStore = useUserDataStore();
 
-const pokemonForDisplay = userDataStore.userPokemons[0];
+const pokemonForDisplay = userDataStore.userPokemons;
 
 const isOpen = ref(false);
 const toggleMenu = () => {

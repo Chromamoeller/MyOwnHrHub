@@ -1,8 +1,8 @@
 <template>
   <div class="flex w-full h-full bg-gray-200">
     <div
-      @click="doSomething"
       v-for="pokemon in pokemonForDisplay"
+      @click="pushPokemonInStore(pokemon)"
       :key="pokemon.id"
       :class="`flex cursor-pointer flex-col items-center w-1/3 h-1/3 justify-center p-3 ml-3 mr-3 rounded-2xl shadow-md ${getTypeClass(
         pokemon.types
@@ -50,8 +50,8 @@ function getTypeClass(types) {
     }`;
   }
 }
-function doSomething() {
-  userDataStore.saveUserPokemons(pokemonForDisplay[0]);
+function pushPokemonInStore(pokemon) {
+  userDataStore.saveUserPokemons(pokemon);
 }
 </script>
 
