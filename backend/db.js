@@ -6,11 +6,12 @@ db.serialize(() => {
   db.run(`
     CREATE TABLE IF NOT EXISTS times (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
+      user_id INTEGER,
       date TEXT,
       start TEXT,
       end TEXT,
-      breakMinutes INTEGER,
-      note TEXT
+      breakMinutes TEXT,
+      workplace TEXT
     )
   `);
 });
