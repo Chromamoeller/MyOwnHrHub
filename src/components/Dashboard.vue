@@ -53,11 +53,16 @@ const buttonContent = [
     text: "Arbeits Beginn",
     actions: () => {
       console.log("test");
+      const now = new Date();
+
+      const date = now.toISOString().split("T")[0];
+
+      const start = now.toTimeString().slice(0, 5);
       axios
         .post("/api/times/start", {
           user_id: user_id.value,
-          date: "2025-07-12",
-          start: "08:00",
+          date: date,
+          start: start,
           end: null,
           breakMinutes: "30",
           workplace: "Homeoffice",
@@ -79,6 +84,7 @@ const buttonContent = [
     text: "Arbeits Ende",
     actions: () => {
       console.log("test");
+
       return axios
         .put(`/api/times/${user_id.value}/end`, { end: "16:45" })
         .then((response) => {
