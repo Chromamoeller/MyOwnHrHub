@@ -73,20 +73,3 @@ export const useFinanceValuesStore = defineStore("financeValues", () => {
 
   return { financeValues, addEntry };
 });
-
-export const useUserDataStore = defineStore("userData", () => {
-  const userPokemons = reactive({
-    id: 2,
-    name: "Bisaknosp",
-    image:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
-    types: ["grass", "poison"],
-  });
-  function saveUserPokemons(pokemonObject) {
-    userPokemons.id = pokemonObject.id;
-    userPokemons.name = pokemonObject.name;
-    userPokemons.image = pokemonObject.image;
-    userPokemons.types = pokemonObject.types;
-  }
-  return { userPokemons, saveUserPokemons };
-});

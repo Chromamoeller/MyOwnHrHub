@@ -2,18 +2,6 @@
   <header
     class="bg-white shadow-md px-4 py-3 flex items-center justify-between"
   >
-    <!-- Logo/Icon -->
-    <div class="flex items-center">
-      <img
-        :src="pokemonForDisplay.image"
-        alt="Logo"
-        class="h-20 w-20 object-contain"
-      />
-
-      <span class="ml-3 text-xl font-semibold text-gray-800">Meine Seite</span>
-    </div>
-
-    <!-- Desktop Navigation -->
     <nav class="hidden md:flex space-x-6">
       <a
         href="#"
@@ -94,11 +82,6 @@
 
 <script setup>
 import { ref } from "vue";
-import { useUserDataStore } from "../stores/store";
-
-const userDataStore = useUserDataStore();
-
-const pokemonForDisplay = userDataStore.userPokemons;
 
 const isOpen = ref(false);
 const toggleMenu = () => {
