@@ -12,25 +12,23 @@ import axios from "axios";
 export const useOverTimeStore = defineStore("overTime", () => {
   console.log("Store wird aufgerufen");
 
-  const data = ref([]); // Hier werden die Daten gespeichert
+  const data = ref([]);
 
   const loadFromBackend = async () => {
     try {
       console.log("Lade Daten vom Backend...");
       const result = await getDataFromBackend();
-      data.value = result;
+      data.value = result.slice(-3);
       console.log("Daten geladen:", data.value);
     } catch (err) {
       console.error("Fehler beim Laden der Daten:", err);
     }
   };
-
-  // Optional: Automatisches Laden beim ersten Aufruf
   loadFromBackend();
 
   return {
     data,
-    loadFromBackend, // Exportiere die Funktion, falls du sie manuell nochmal aufrufen willst
+    loadFromBackend,
   };
 });
 

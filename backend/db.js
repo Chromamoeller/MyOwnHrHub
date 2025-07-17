@@ -14,6 +14,14 @@ db.serialize(() => {
       workplace TEXT
     )
   `);
+  db.run(`
+    create table if not exists users (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      name TEXT,
+      email TEXT,
+      password TEXT
+    )
+    `);
 });
 
 module.exports = db;

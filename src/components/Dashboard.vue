@@ -44,7 +44,8 @@ import AddMoneyEntry from "./AddMoneyEntry.vue";
 import OverTime from "./OverTime.vue";
 import axios from "axios";
 import { ref } from "vue";
-
+import { useOverTimeStore } from "../stores/store";
+const store = useOverTimeStore();
 const user_id = ref(0);
 
 const buttonContent = [
@@ -52,7 +53,6 @@ const buttonContent = [
     id: 1,
     text: "Arbeits Beginn",
     actions: () => {
-      console.log("test");
       const now = new Date();
 
       const date = now.toISOString().split("T")[0];
@@ -77,6 +77,8 @@ const buttonContent = [
             error.response?.data || error.message
           );
         });
+      store.loadFromBackend();
+      console.log("test");
     },
   },
   {

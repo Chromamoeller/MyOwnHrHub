@@ -9,7 +9,7 @@
       end="Arbeitsende"
     />
     <OverTimeBanner
-      v-for="item in store.data.slice(-3)"
+      v-for="item in store.data"
       :id="item.id"
       :item="item"
       :workplace="item.workplace"
